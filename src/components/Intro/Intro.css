@@ -1,0 +1,107 @@
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .intro > div {
+    max-width: 400px;
+  }
+  
+  .intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .accent {
+    color: #3498db; /* veya istediğiniz bir renk */
+  }
+  
+  .intro form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .intro input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .intro button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #3498db; /* veya istediğiniz bir renk */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .intro button span {
+    margin-right: 10px;
+  }
+  
+  .intro img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.intro > div {
+  max-width: 400px;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.accent {
+  color: #3498db; /* veya istediğiniz bir renk */
+}
+
+.intro form {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.intro button {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #3498db; /* veya istediğiniz bir renk */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.intro button span {
+  margin-right: 10px;
+}
+
+.intro img {
+  max-width: 60%;
+  height: auto;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  

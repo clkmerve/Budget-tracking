@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #8b959d; /* veya istediğiniz bir renk */
+    color: #fff;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  nav span {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  nav button {
+    padding: 10px;
+    background-color: #7660d6; /* veya istediğiniz bir renk */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  nav button:hover {
+    background-color: #7f8998; /* veya istediğiniz bir renk */
+  }
+  
